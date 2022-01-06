@@ -1,0 +1,277 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Waterfall&display=swap');
+/* 
+font-family: 'Luxurious Roman', cursive;
+font-family: 'Waterfall', cursive;
+ */
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.article {
+    width: 50%;
+}
+img {
+    width: 100%;
+}
+h2, h3{
+    font-family: 'Luxurious Roman', cursive;
+}
+
+
+
+
+#header{
+    padding: 15px 0px;
+}
+#header .article{
+    padding-top: 80px;
+}
+#header .text-wrapper {
+    border-left: 3px solid #FF5959;
+    padding-left: 8px;
+}
+#header .img {
+    width: 50%;
+}
+#header img {
+    width: 85%;
+    padding-top: 65px;
+}
+#header h2 {
+    font-size: 55px;
+    font-weight: 700;
+    margin: 0;
+    margin-top: 100px;
+}
+#header h3{
+    font-size: 43px;
+    font-weight: 700;
+    margin: 0;
+    color: #FEAD5B;
+}
+#header p{
+    font-size: 19px;
+}
+#header a{
+    background: #fa620f;
+    color: white;
+    width: fit-content;
+    height: auto;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    display: block;
+    text-decoration: none;
+    padding: 8px 30px;
+}
+#header small{
+    padding-top: 16px;
+    display: block;
+    font-size: 16px;
+}
+
+#my-mission h2 {
+    text-align: center;
+    font-size: 60px;
+    padding-top: 60px;
+}
+#my-mission h2 span{
+    color: #FEAD5B;
+}
+#my-mission .box-group {
+    display: flex;
+    width: 65%;
+    margin: 65px auto;
+}
+#my-mission .box{
+    width: 30%;
+    margin: 0 auto;
+    padding: 25px 9px;
+    border-radius: 6px;
+}
+#my-mission .box-group .box img {
+    width: inherit;
+}
+#my-mission .box-group .box h3 {
+    margin: 0;
+}
+#my-mission .box-1{
+    background: #ECF5F7;
+}
+#my-mission .box-2{
+    background: #FEEFEE;
+}
+#my-mission .box-3{
+    background: #FEF4D7;
+}
+
+
+#group {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 65px;
+    position: relative;
+    background-repeat: no-repeat;
+}
+#group .first-box {
+    display: flex;
+}
+#group .first-box img {
+    width: 30%;
+    margin: 35px;
+}
+#group .right-box {
+    padding-top: 25px;
+}
+#group .right-box h3 {
+    font-size: 45px;
+    margin: 55px 0px 8px 0px;
+}
+#group .right-box a{
+    background: #fa620f;
+    color: white;
+    width: fit-content;
+    height: auto;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    display: block;
+    text-decoration: none;
+    padding: 8px 30px;
+}
+
+
+
+
+
+#group .second-box {
+    display: flex;
+}
+#group .second-box img {
+    width: 30%;
+    margin: 35px;
+}
+#group .left-box {
+    padding-top: 25px;
+}
+#group .left-box h3 {
+    font-size: 45px;
+    margin: 55px 0px 8px 0px;
+}
+#group .left-box a{
+    background: #fa620f;
+    color: white;
+    width: fit-content;
+    height: auto;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    display: block;
+    text-decoration: none;
+    padding: 8px 30px;
+}
+img.bg-img-1 {
+    position: absolute;
+    width: 18%;
+    z-index: -1;
+    top: 75px;
+    left: -65px;
+}
+
+img.bg-img-2 {
+    position: absolute;
+    width: 18%;
+    z-index: -1;
+    bottom: 12px;
+    right: -45px;
+}
+
+
+
+
+#my-application {
+    width: 100%;
+    height: auto;
+    background-image: url(img/sunset.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 65px 0px;
+}
+
+#my-application .container{
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+    border-radius: 5px;
+    background-color: rgba(91, 205, 237, 0.281);
+    backdrop-filter: blur(5px);
+}
+#my-application .right-box {
+    padding: 25px  35px;
+}
+#my-application h2 {
+    font-size: 40px;
+    margin: 0;
+    text-shadow: 0 0 steelblue;
+}
+#my-application p {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: justify;
+    text-shadow: 0 0 steelblue;
+}
+#my-application h4{
+    margin: 0;
+    text-decoration: underline;
+}
+#my-application ul{
+    margin: 5px;
+}
+#my-application a{
+    border: 1px solid;
+    background:rgba(13, 78, 73, 0.337);
+    color: rgb(255,173,90);
+    width: fit-content;
+    height: auto;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    display: block;
+    text-decoration: none;
+    padding: 8px 30px;
+    text-shadow: 0 0 5px black;
+    float: right;
+    font-weight: 700;
+}
+
+#my-application a:hover{
+    background: #fff;
+    transition: all .7s;
+    color: black;
+    text-shadow: 0 0 5px #fff;
+}
+
+
+
+footer {
+    background: #0A0C17;
+    padding: 35px 0px;
+    color: white;
+    text-align: center;
+}
+footer p{
+    color: #8A8D94;
+}
+footer h3 span{
+    color: #C24648;
+}
+footer h3 {
+    font-size: 35px;
+    margin: 9px 0px;
+}
